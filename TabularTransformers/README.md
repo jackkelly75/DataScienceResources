@@ -24,3 +24,4 @@ The wiki is surprisingly good at explaining them [https://en.wikipedia.org/wiki/
 
 Extension of Tabular transformers - good selection of parameters (what works best as default and how to most efficiently tune them)
 -alteration of the MLP that feeds out data - currently is on end to provide the information but could be improved
+-ease of use - package/open source code that allows for ensembling and tuning of model efficiently
