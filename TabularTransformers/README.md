@@ -4,7 +4,15 @@
 #### Begginings
 The Transformer was first introduced in 2017 by Vaswani et al in thier paper Attention Is All You Need. (link to this once annotated). (this paper has an intro to scaled dot product attention
 
+
+Good blog post on how they work - https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853#:~:text=In%20the%20Transformer%2C%20the%20Attention,independently%20through%20a%20separate%20Head.
+
+Line by line in python on how to manually make one  -- https://blog.varunajayasiri.com/ml/transformer.html
+
+
+
 BERT paper describes an encoder-style large language model and maked language modeling for prediction tasks (BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding)
+
 
 
 
