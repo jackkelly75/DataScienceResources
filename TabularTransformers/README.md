@@ -9,6 +9,7 @@ Good blog post on how they work - https://towardsdatascience.com/transformers-ex
 
 Line by line in python on how to manually make one  -- https://blog.varunajayasiri.com/ml/transformer.html
 
+Another good blog post - https://towardsdatascience.com/transformers-for-tabular-data-part-3-piecewise-linear-periodic-encodings-1fc49c4bd7bc
 
 
 BERT paper describes an encoder-style large language model and maked language modeling for prediction tasks (BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding)
