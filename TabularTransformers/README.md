@@ -1,8 +1,37 @@
 ### This sections describes some good resources I have used to learn about transformers and thier applications to tabular data
 
 
+
+
 #### Begginings
-The Transformer was first introduced in 2017 by Vaswani et al in thier paper Attention Is All You Need. (link to this once annotated). (this paper has an intro to scaled dot product attention
+Transformers are becoming extremely important not just in applications to NLP but progressively so in tabular classification.. The Transformer was first introduced in 2017 by Vaswani et al in thier paper Attention Is All You Need. (link to this once annotated). This uses Attention to improve on the complex NLPs that previously dominated the area. They have even entered the public eye through OpenAI's chatGPT. 
+
+I will discuss Transformers in their application to language models then expand on this to tabular data.
+
+
+NLP Transformers take a stack of Encoder and Decoder layers to take a sequence of text as an input, and output another text sequence. 
+
+
+
+https://towardsdatascience.com/transformers-explained-visually-part-1-overview-of-functionality-95a6dd460452
+
+
+
+https://towardsdatascience.com/transformers-explained-visually-part-2-how-it-works-step-by-step-b49fa4a64f34
+
+
+
+
+https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853
+
+
+
+https://towardsdatascience.com/transformers-explained-visually-not-just-how-but-why-they-work-so-well-d840bd61a9d3
+
+
+
+
+
 
 
 Good blog post on how they work - https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853#:~:text=In%20the%20Transformer%2C%20the%20Attention,independently%20through%20a%20separate%20Head.
