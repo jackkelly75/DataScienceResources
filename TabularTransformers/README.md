@@ -3,13 +3,54 @@
 
 
 
-#### Begginings
-Transformers are becoming extremely important not just in applications to NLP but progressively so in tabular classification.. The Transformer was first introduced in 2017 by Vaswani et al in thier paper Attention Is All You Need. (link to this once annotated). This uses Attention to improve on the complex NLPs that previously dominated the area. They have even entered the public eye through OpenAI's chatGPT. 
+#### Beginnings
+Transformers have become increasingly popular in recent years for their ability to classify large amounts of data with high accuracy. The Transformer was first introduced in 2017 by Vaswani et al in thier paper Attention Is All You Need. (link to this once annotated). Originally developed for natural language processing (NLP) and entering the public eye through ChatGPT from OpenAI, transformers are now being used in a variety of applications, including computer vision and speech recognition.
 
 I will discuss Transformers in their application to language models then expand on this to tabular data.
 
+#### Basics
 
-NLP Transformers take a stack of Encoder and Decoder layers to take a sequence of text as an input, and output another text sequence. 
+At a high level, transformers are a type of neural network architecture that uses attention mechanisms to process input data. Unlike traditional neural networks that process input sequentially, transformers can process all inputs in parallel, making them faster and more efficient.
+
+Transformers are typically structured into two parts: an encoder and a decoder. The encoder takes the input data and transforms it into a series of vectors, while the decoder takes those vectors and uses them to generate the output. The basic structure is shown below
+
+
+-structure of transformer here - https://miro.medium.com/v2/resize:fit:640/format:webp/1*XDtQ3C7XrtVuqTtrxr2UWQ.png
+-add in the reference to this guy  - https://towardsdatascience.com/transformers-explained-visually-part-1-overview-of-functionality-95a6dd460452
+
+The Encoder and Decoder have consistent architectures however have thier own set of weights. 
+-https://miro.medium.com/v2/resize:fit:640/format:webp/1*F7JlVjpmv-XAEeE9IPyzHA.png
+
+The encoder can have many different architectures (two of which (PreNorm and PostNorm) will be discussed later in applications to tabular data) but fundamentally it features residual Skip connections around the layers and LayerNorm layers.
+
+-https://miro.medium.com/v2/resize:fit:490/format:webp/1*THykpgtL058A9EpkstnUJQ.png
+
+#### Attention
+
+The Self-attention layers are what defines the utlity of the Transformer. Self-attention allows the model to focus on different parts of the input data at different times, which is particularly useful for tasks that involve long input sequences. Theattention mechanism allows the model to focus on the most important parts of the input data, calculating a weight for each input vector based on its relevance to the current output. This weight is then used to calculate a weighted sum of the input vectors, which is passed through a series of linear layers to produce the final output.
+
+
+
+
+One of the key advantages of transformers is their ability to handle variable-length input sequences. This is accomplished by using positional encoding, which encodes the position of each input vector in the sequence as a separate feature. This allows the model to distinguish between inputs based on their position in the sequence, which is critical for many classification tasks.
+
+
+
+Overall, transformers have proven to be a powerful tool for data classification, particularly in tasks that involve large amounts of data or complex input sequences. As research continues to advance, it is likely that we will see even more innovative uses of transformers in the future.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
