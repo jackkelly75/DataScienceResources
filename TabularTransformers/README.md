@@ -29,17 +29,24 @@ The encoder can have many different architectures (two of which (PreNorm and Pos
 
 The Self-attention layers are what defines the utlity of the Transformer. Self-attention allows the model to focus on different parts of the input data at different times, which is particularly useful for tasks that involve long input sequences. Theattention mechanism allows the model to focus on the most important parts of the input data, calculating a weight for each input vector based on its relevance to the current output. This weight is then used to calculate a weighted sum of the input vectors, which is passed through a series of linear layers to produce the final output.
 
+To understand how attention works in more detail, let's first consider a traditional neural network architecture. In a traditional neural network, each input is processed sequentially, with the output of each layer being passed on to the next. This means that each output is generated based only on the input at the current time step, without any consideration of the other inputs.
+
+Attention mechanisms, on the other hand, allow the model to consider all inputs simultaneously and selectively focus on the most relevant parts of the input when generating an output. This is accomplished by assigning a weight to each input based on its relevance to the current output.
+
+The weight for each input is calculated using a function that takes into account the current output and the input itself. This function is typically a dot product between a query vector derived from the current output and a key vector derived from the input. The resulting weight is then used to calculate a weighted sum of the input vectors, which is passed through a series of linear layers to produce the final output.
+
+The attention mechanism can be thought of as a way for the model to learn which inputs are most relevant for a given output. By selectively focusing on the most important parts of the input, the model can generate more accurate outputs with less computational overhead.
+
+One of the key benefits of attention mechanisms is their ability to handle variable-length input sequences. By assigning weights to each input based on its relevance to the current output, the model can effectively process sequences of different lengths without the need for padding or truncation.
+
+In summary, attention mechanisms are a critical component of transformer architectures and allow the model to selectively focus on the most relevant parts of the input data when generating an output. This results in more accurate and efficient classification of data, particularly in tasks that involve large amounts of data or complex input sequences.
 
 
 
-One of the key advantages of transformers is their ability to handle variable-length input sequences. This is accomplished by using positional encoding, which encodes the position of each input vector in the sequence as a separate feature. This allows the model to distinguish between inputs based on their position in the sequence, which is critical for many classification tasks.
+#### Training and applying Transformers for NLP
 
-
-
-Overall, transformers have proven to be a powerful tool for data classification, particularly in tasks that involve large amounts of data or complex input sequences. As research continues to advance, it is likely that we will see even more innovative uses of transformers in the future.
-
-
-
+The process of training and then applying a Tranformer to language is explained well in https://towardsdatascience.com/transformers-explained-visually-part-1-overview-of-functionality-95a6dd460452 by ... 
+For
 
 
 
