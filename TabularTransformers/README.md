@@ -53,6 +53,8 @@ By repeating this procedure h times (with different Q, K, V matrices) we get mul
 
 
 
+more info on attention - https://towardsdatascience.com/transformers-explained-visually-part-2-how-it-works-step-by-step-b49fa4a64f34
+
 
 #### Training and applying Transformers for NLP
 
