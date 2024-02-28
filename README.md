@@ -1,3 +1,85 @@
-# annotated-papers
-Research papers with annotations
--
+### Data science Resources
+
+Currated external resources that are useful or interesting.
+
+> Feel free to contribute! Add links through pull requests
+
+## Essential Startpoints
+|    |    |
+| :-----:| :------------:|
+|   Data Science  | [📰 Interesting case studies](#interesting-case-studies) <br><br>  [ 📑 Data science blogs](#data-science-blogs) |
+|   ML & DL  |  [ 💠 Machine learning](#machine-learning) <br><br> [ 🔗 Deep learning](#deep-learning)  <br><br>  [ ➕ Transformers](#transformers)  |
+
+
+
+
+
+#### Interesting case studies
+
+Some selected case studies from other companies about use of DS and ML in thier work.
+
+| Company      | Industry | Short desc | Title | Tag | Year  | Link |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| Uber      | Delivery and mobility       |   Optimsing push notification timings    |   How Uber optimizes push notification using ML    |   {+ Optimising marketing +}   |  2022      |   https://www.uber.com/en-GB/blog/how-uber-optimizes-push-notifications-using-ml/    |
+| Stripe      | Fintech and banking       |   Prevent fraudulent transactions    |   How we built it: Stripe Radar    |   {+ fraud detection +}   |  2023      |   https://stripe.com/blog/how-we-built-it-stripe-radar    |
+| Uber   | Delivery and mobility        |   forecast demand for airport rides   |  Demand and ETR forecasting for airports     |   {+ demand forecasting +}    |  2023     |   https://www.uber.com/en-GB/blog/demand-and-etr-forecasting-at-airports/    |
+| Pinterest   | Social media        |   Prevent advertiser churn   |  An ML based approach to proactive advertiser churn prevention     |   {+ churn prediction +}    |  2023     |  https://medium.com/pinterest-engineering/an-ml-based-approach-to-proactive-advertiser-churn-prevention-3a7c0c335016    |
+| Zillow   | E-commerce        |   Estimate house market value   |  Building the Neural Zestimate     |   {+ pricing +}    |  2023     |  https://www.zillow.com/tech/building-the-neural-zestimate/    |
+| Zillow   | E-commerce        |   Scaling ML solutions   |  Serving Machine Learning Models Efficiently at Scale at Zillow     |   {+ scaling ML +}    |  2023     |  https://www.zillow.com/tech/serving-machine-learning-models-efficiently-at-scale-at-zillow/    |
+| Zillow   | E-commerce        |   Estimating transaction rates   |  How Zillow Data Science Measures Business Outcomes with Bayesian Statistics     |   {+ Business outcomes +}    |  2023     |  https://www.zillow.com/tech/how-zillow-data-science-measures-business-outcomes-with-bayesian-statistics/    |
+| Zillow   | E-commerce        |   Imputing data using autoencoder   |  Imputing data for the Zestimate     |   {+ Imputing data +}    |  2023     |  https://www.zillow.com/tech/imputing-data-for-the-zestimate/   |
+| instacart   | E-commerce        |   Unifying multiple models into one   |  One model to serve them all     |   {+ Deep learning +}    |  2023     |  https://tech.instacart.com/one-model-to-serve-them-all-0eb6bf60b00d   |
+| walmart   | E-commerce        |   Recommend items to users   |  Personalized 'Complete the Look' model     |   {+ Recommendation Engines +}    |  2023     |  https://medium.com/walmartglobaltech/personalized-complete-the-look-model-ea093aba0b73   |
+| lyft   | Delivery and mobility        |   Recommendation which ride user should take   |  The Recommendation System at Lyft     |   {+ Recommendation Engines +}    |  2023     |  https://eng.lyft.com/the-recommendation-system-at-lyft-67bc9dcc1793   |
+| Monzo   | Fintech        |   Identify what users savings goals are   |  Using topic modelling to understand customer saving goals     |   {+ Topic modelling +}    |  2023     |  https://medium.com/data-monzo/using-topic-modelling-to-understand-customer-saving-goals-2bb06f00ce2d   |
+| Monzo   | Fintech        |   Select relevant marketing messages   |  Optimising marketing messages for Monzo users     |   {+ Optimising marketing +}    |  2023     |  https://medium.com/data-monzo/optimising-marketing-messages-for-monzo-users-3fe805f24572   |
+| Airbnb   | E-commerce        |   Personalised listing search   |   Learning To Rank Diversely   |   {+ Ranking +}    |  2023     |  https://medium.com/airbnb-engineering/learning-to-rank-diversely-add6b1929621   |
+| Twitter (X)   | Social media        |   Recommending tweets   |   Twitter Recommendation algorithm   |   {+ Recommendation engine +}    |  2023     |  https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm |
+| Wayfair   | E-commerce        |   Fraud detection   |   Introducing Melange: A Customer Journey Embedding System for Improving Fraud and Policy Abuse Detection   |   {+ Fraud detection +}    |  2023     |  https://www.aboutwayfair.com/careers/tech-blog/introducing-melange-a-customer-journey-embedding-system-for-improving-fraud-and-scam-detection |
+| Spotify   |   Media   |   Optimise in app notifications   |   Experimenting with Machine Learning to Target In-App Messaging   |   {+ Optimising marketing +}    |  2023     |  https://engineering.atspotify.com/2023/06/experimenting-with-machine-learning-to-target-in-app-messaging/ |
+| Foodpanda   |   Delivery and mobility   |   Automatic labelling of food types   |   Classifying restaurant cuisines with subjective labels   |   {+ Classification +}    |  2022     |  https://medium.com/foodpanda-data/classifying-restaurant-cuisines-with-subjective-labels-fa10012d18a9 |
+| Yelp   |   Social media   |   Personalise recommendations   |   Beyond Matrix Factorization: Using hybrid features for user-business recommendations   |   {+ Recommendation engines +}    |  2022     |  https://engineeringblog.yelp.com/2022/04/beyond-matrix-factorization-using-hybrid-features-for-user-business-recommendations.html |
+| Gousto   |   E-commerce   |   Predict user churn   |   Using Data Science to Retain Customers   |   {+ Churn +}    |  2022     |  https://medium.com/gousto-engineering-techbrunch/using-data-science-to-retain-customers-63f19a03a0b6 |
+| Lyft   |   Delivery and mobility   |   Deep learning for fraud behaviour   |   Fingerprinting fraudulent behavior   |   {+ Fraud +}    |  2018     |  https://eng.lyft.com/fingerprinting-fraudulent-behavior-6663d0264fad |
+
+
+
+#### Data science blogs
+
+* [Airbnb](https://medium.com/airbnb-engineering/ai/home)
+* Baidu - [Data science](http://research.baidu.com/Research_Areas/index-view?id=55) - [ML and DL](http://research.baidu.com/Research_Areas/index-view?id=60)
+* [Booking.com](https://blog.booking.com/#datascience)
+* [Bumble](https://medium.com/bumble-tech/tagged/data-science)
+* [Expedia](https://medium.com/expedia-group-tech/data/home)
+* [Meta](https://engineering.fb.com/category/ml-applications/)
+* [Monzo](https://medium.com/data-monzo)
+* Google - [Data mining and modeling](https://research.google/research-areas/data-mining-and-modeling/) - [Data management](https://research.google/research-areas/data-management/) - [Machine Intelligence](https://research.google/research-areas/machine-intelligence/) - [Responsible AI](https://research.google/research-areas/responsible-ai/)
+* [Grab](https://engineering.grab.com/categories/data-science/)
+* [Instacart](https://tech.instacart.com/tagged/machine-learning)
+* [Lyft](https://eng.lyft.com/tagged/data-science)
+* [Netflix](https://netflixtechblog.com/)
+* [Nextdoor](https://engblog.nextdoor.com/)
+* [Shopify](https://shopify.engineering/topics/data-science-engineering)
+* [Spotify](https://engineering.atspotify.com/)
+* [Stitchfix](https://multithreaded.stitchfix.com/algorithms/blog/)
+* [Uber data science / ML](https://www.uber.com/en-GB/blog/engineering/data/)
+* [Zillow](https://www.zillow.com/tech/)
+
+
+#### Machine learning
+* [Introduction to statistical learning](https://www.statlearning.com/)
+
+
+
+#### Deep learning
+
+* [Google research deep learning tuning playbook](https://github.com/google-research/tuning_playbook)
+* [A Short Chronology Of Deep Learning For Tabular Data](https://sebastianraschka.com/blog/2022/deep-learning-for-tabular-data.html)
+* [Uni of Geneva deep learning modules](https://fleuret.org/dlc/)
+
+
+#### Transformers
+* [Original *Attention is all you need* paper](https://arxiv.org/abs/1706.03762)
+	* [Presentation on the paper](https://youtu.be/S0KakHcj_rs?si=yZ6OHaXbu2vbFXIP)
+* [TabTransformer: Tabular Data Modeling Using Contextual Embedding](/Resources/Papers/TabTransformer.pdf")
+* [Transformers for Tabular Data Representation](/Resources/Papers/TransformersForTabularDataRepresentation.pdf")
