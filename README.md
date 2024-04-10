@@ -4,17 +4,107 @@ Currated external resources that are useful or interesting.
 
 > Feel free to contribute! Add links through pull requests
 
-## Essential Startpoints
+## Contents
 |    |    |
 | :-----:| :------------:|
-|   Data Science  | [📰 Interesting case studies](#interesting-case-studies) <br><br>  [ 📑 Data science blogs](#data-science-blogs) |
+|   Data Science  | [📰 Interesting case studies](#interesting-case-studies) <br><br>  [ 📑 Data science blogs](#data-science-blogs) <br><br>  [ 📁 SQL](#sql) <br><br>  [ 📊 Visualisation](#visualisation) |
 |   ML & DL  |  [ 💠 Machine learning](#machine-learning) <br><br> [ 🔗 Deep learning](#deep-learning)  <br><br>  [ ➕ Transformers](#transformers)  |
 
 
+----------------------------
+<br>
 
 
+### Data science blogs
 
-#### Interesting case studies
+* [Airbnb](https://medium.com/airbnb-engineering/ai/home)
+* Baidu - [Data science](http://research.baidu.com/Research_Areas/index-view?id=55) - [ML and DL](http://research.baidu.com/Research_Areas/index-view?id=60)
+* [Booking.com](https://blog.booking.com/#datascience)
+* [Bumble](https://medium.com/bumble-tech/tagged/data-science)
+* [Expedia](https://medium.com/expedia-group-tech/data/home)
+* [Meta](https://engineering.fb.com/category/ml-applications/)
+* [Monzo](https://medium.com/data-monzo)
+* Google - [Data mining and modeling](https://research.google/research-areas/data-mining-and-modeling/) - [Data management](https://research.google/research-areas/data-management/) - [Machine Intelligence](https://research.google/research-areas/machine-intelligence/) - [Responsible AI](https://research.google/research-areas/responsible-ai/)
+* [Grab](https://engineering.grab.com/categories/data-science/)
+* [Instacart](https://tech.instacart.com/tagged/machine-learning)
+* [Lyft](https://eng.lyft.com/tagged/data-science)
+* [Netflix](https://netflixtechblog.com/)
+* [Nextdoor](https://engblog.nextdoor.com/)
+* [Shopify](https://shopify.engineering/topics/data-science-engineering)
+* [Spotify](https://engineering.atspotify.com/)
+* [Stitchfix](https://multithreaded.stitchfix.com/algorithms/blog/)
+* [Uber data science / ML](https://www.uber.com/en-GB/blog/engineering/data/)
+* [Zillow](https://www.zillow.com/tech/)
+
+
+----------------------------
+
+
+### SQL
+* SQL for Data Scientists: A Beginner's Guide for Building Datasets for Analysis
+	* Good very basic introduction to SQL
+* [w3 schools SQL tutorials](https://www.w3schools.com/sql/default.asp)
+	* Has an overview of everything you might need to do in SQL
+
+
+----------------------------
+
+
+### Visualisation
+
+----------------------------
+
+
+### Machine learning
+
+*Introduction and overview of machine learning*
+
+* [Introduction to statistical learning](https://www.statlearning.com/)
+* [Google ML course](https://developers.google.com/machine-learning)
+* [Made with ML](https://madewithml.com/)
+
+
+*Interesting resources*
+* [Rules of ML: best practices](/Resources/Papers/rules_of_ml_google.pdf)
+	* Really well articulated (sometimes obvious) points that should be followed when developing ML models
+	* Has now been adopted at google (https://developers.google.com/machine-learning/guides/rules-of-ml)
+* [Exploratory Data Analysis for Feature Selection in Machine Learning](/Resources/Papers/exploratory_data_analysis_for_feature_selection_in_machine_learning.pdf) document
+
+
+----------------------------
+
+
+### Deep learning
+
+*Introduction and full coverage of deep learning*
+
+* [Deep learning by Goodfellow, Bengio and Courville](https://www.deeplearningbook.org/)
+* [Uni of Geneva deep learning modules](https://fleuret.org/dlc/)
+
+*Specific resources for deep learning*
+
+* [Google research deep learning tuning playbook](https://github.com/google-research/tuning_playbook)
+* [A Short Chronology Of Deep Learning For Tabular Data](https://sebastianraschka.com/blog/2022/deep-learning-for-tabular-data.html)
+* [On the difficulty of training Recurrent Neural Networks](/Resources/Papers/On_the_difficulty_of_training_RNN.pdf)
+	* vanishing and the exploding gradient problem
+----------------------------
+
+### Transformers
+* [Original *Attention is all you need* paper](https://arxiv.org/abs/1706.03762)
+	* [Presentation on the paper](https://youtu.be/S0KakHcj_rs?si=yZ6OHaXbu2vbFXIP)
+* [TabTransformer: Tabular Data Modeling Using Contextual Embedding](/Resources/Papers/TabTransformer.pdf)
+* [Transformers for Tabular Data Representation](/Resources/Papers/TransformersForTabularDataRepresentation.pdf)
+* [Attention in transformers, visually explained](https://www.youtube.com/watch?v=eMlx5fFNoYc) - 3Blue1Brown video that nicely shows self-attention
+* Series of seminars from Stanford uni on use of transformers - [playlist](https://www.youtube.com/watch?v=P127jhj-8-Y&list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM)
+* [Let's build the GPT Tokenizer](https://www.youtube.com/watch?v=zduSFxRajkE)
+	* Not really transformers but overview of tonkenisation for LLM
+	* Video created by Andrej Karpathy, lead behind chatGPT and tesla autopilot. No idea where he finds the time to make a 2 hour youtube video.
+
+
+----------------------------
+
+
+### Interesting case studies
 
 Some selected case studies from other companies about use of DS and ML in thier work.
 
@@ -44,42 +134,5 @@ Some selected case studies from other companies about use of DS and ML in thier 
 
 
 
-#### Data science blogs
+----------------------------
 
-* [Airbnb](https://medium.com/airbnb-engineering/ai/home)
-* Baidu - [Data science](http://research.baidu.com/Research_Areas/index-view?id=55) - [ML and DL](http://research.baidu.com/Research_Areas/index-view?id=60)
-* [Booking.com](https://blog.booking.com/#datascience)
-* [Bumble](https://medium.com/bumble-tech/tagged/data-science)
-* [Expedia](https://medium.com/expedia-group-tech/data/home)
-* [Meta](https://engineering.fb.com/category/ml-applications/)
-* [Monzo](https://medium.com/data-monzo)
-* Google - [Data mining and modeling](https://research.google/research-areas/data-mining-and-modeling/) - [Data management](https://research.google/research-areas/data-management/) - [Machine Intelligence](https://research.google/research-areas/machine-intelligence/) - [Responsible AI](https://research.google/research-areas/responsible-ai/)
-* [Grab](https://engineering.grab.com/categories/data-science/)
-* [Instacart](https://tech.instacart.com/tagged/machine-learning)
-* [Lyft](https://eng.lyft.com/tagged/data-science)
-* [Netflix](https://netflixtechblog.com/)
-* [Nextdoor](https://engblog.nextdoor.com/)
-* [Shopify](https://shopify.engineering/topics/data-science-engineering)
-* [Spotify](https://engineering.atspotify.com/)
-* [Stitchfix](https://multithreaded.stitchfix.com/algorithms/blog/)
-* [Uber data science / ML](https://www.uber.com/en-GB/blog/engineering/data/)
-* [Zillow](https://www.zillow.com/tech/)
-
-
-#### Machine learning
-* [Introduction to statistical learning](https://www.statlearning.com/)
-
-
-
-#### Deep learning
-
-* [Google research deep learning tuning playbook](https://github.com/google-research/tuning_playbook)
-* [A Short Chronology Of Deep Learning For Tabular Data](https://sebastianraschka.com/blog/2022/deep-learning-for-tabular-data.html)
-* [Uni of Geneva deep learning modules](https://fleuret.org/dlc/)
-
-
-#### Transformers
-* [Original *Attention is all you need* paper](https://arxiv.org/abs/1706.03762)
-	* [Presentation on the paper](https://youtu.be/S0KakHcj_rs?si=yZ6OHaXbu2vbFXIP)
-* [TabTransformer: Tabular Data Modeling Using Contextual Embedding](/Resources/Papers/TabTransformer.pdf")
-* [Transformers for Tabular Data Representation](/Resources/Papers/TransformersForTabularDataRepresentation.pdf")
