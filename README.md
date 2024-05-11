@@ -1,3 +1,18 @@
+https://github.com/TheAlgorithms/Python
+
+https://github.com/donnemartin/system-design-primer
+
+https://github.com/soulmachine/machine-learning-cheat-sheet
+
+https://github.com/andrewekhalel/MLQuestions?tab=readme-ov-file
+
+https://github.com/Avik-Jain/100-Days-Of-ML-Code
+
+https://github.com/chiphuyen/machine-learning-systems-design
+
+https://github.com/khangich/machine-learning-interview
+
+
 ### Data science Resources
 
 Currated external resources that are useful or interesting.
