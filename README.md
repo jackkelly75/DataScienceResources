@@ -69,6 +69,11 @@ Currated external resources that are useful or interesting.
 
 ----------------------------
 
+### Feature engineering and selection
+
+* [Github with information on feature engineering](https://github.com/aikho/awesome-feature-engineering)
+
+----------------------------
 
 ### Machine learning
 
@@ -77,6 +82,11 @@ Currated external resources that are useful or interesting.
 * [Introduction to statistical learning](https://www.statlearning.com/)
 * [Google ML course](https://developers.google.com/machine-learning)
 * [Made with ML](https://madewithml.com/)
+* [The Elements of Statistical Learning: Data Mining, Inference and Predictions](/Resources/pdfs/The_Elements_of_Statistical_Learning_-_Data_Mining__Inference_and_Prediction_-_2nd_Edition__ESLII_print4_.pdf)
+
+*Logistic regression*
+
+* [Speech and Language Processing: Logistic Regression](/Resources/pdfs/SpeechLanguageProcessing_LogisticRegression.pdf)
 
 
 *Interesting resources*
@@ -95,6 +105,7 @@ Currated external resources that are useful or interesting.
 
 * [Deep learning by Goodfellow, Bengio and Courville](https://www.deeplearningbook.org/)
 * [Uni of Geneva deep learning modules](https://fleuret.org/dlc/)
+* [Deep learning module - NYU center for data science](https://jonathansum.github.io/pytorch-Deep-Learning/en/week01/01-1/)
 
 *Specific resources for deep learning*
 
@@ -105,18 +116,54 @@ Currated external resources that are useful or interesting.
 ----------------------------
 
 ### Transformers
+
 * [Original *Attention is all you need* paper](https://arxiv.org/abs/1706.03762)
 	* [Presentation on the paper](https://youtu.be/S0KakHcj_rs?si=yZ6OHaXbu2vbFXIP)
-* [TabTransformer: Tabular Data Modeling Using Contextual Embedding](/Resources/Papers/TabTransformer.pdf)
-* [Transformers for Tabular Data Representation](/Resources/Papers/TransformersForTabularDataRepresentation.pdf)
-* [Attention in transformers, visually explained](https://www.youtube.com/watch?v=eMlx5fFNoYc) - 3Blue1Brown video that nicely shows self-attention
+* [madewithml page on transformers (https://madewithml.com/courses/foundations/transformers/)
+	* Includes python code on training transformers
+* [Speech and Language Processing: Chapter 10 Transformers and Large Language Models](/Resources/pdfs/SpeechLanguageProcessing_Transformers.pdf)
+	* Chapter from Language processing textbook on Transformers for use in LLMs
 * Series of seminars from Stanford uni on use of transformers - [playlist](https://www.youtube.com/watch?v=P127jhj-8-Y&list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM)
 * [Let's build the GPT Tokenizer](https://www.youtube.com/watch?v=zduSFxRajkE)
 	* Not really transformers but overview of tonkenisation for LLM
 	* Video created by Andrej Karpathy, lead behind chatGPT and tesla autopilot. No idea where he finds the time to make a 2 hour youtube video.
+* [The Transformer Blueprint: A Holistic Guide to the Transformer Neural Network Architecture](https://deeprevision.github.io/posts/001-transformer/)
+	* Really good overview of transformers architecture
+* [Explanation of how BERT works](https://huggingface.co/blog/bert-101)
+	* BERT uses transformers to solve common NLP problems
+	* Original BERT paper can be found [here](https://arxiv.org/pdf/1810.04805.pdf)
+
+
+
+Self attention is the key to the success of the transformers architecture. Below are some resources on self-attention:
+
+* [Attention in transformers, visually explained](https://www.youtube.com/watch?v=eMlx5fFNoYc)
+	* 3Blue1Brown video that nicely shows self-attention
+* [Blog post with overview on self-attention](https://lilianweng.github.io/posts/2018-06-24-attention/)
+
+
+Transformers on tabular data are also a new area of research. These are used in the RG predictions.
+
+* [TabTransformer: Tabular Data Modeling Using Contextual Embedding](/Resources/Papers/TabTransformer.pdf)
+* [Transformers for Tabular Data Representation](/Resources/Papers/TransformersForTabularDataRepresentation.pdf)
+
+With the rise of transformers, embeddings are becoming clearly more important and discussed for all aspects of deep learning. Are probably a good candidate for creation of custom user metrics in the future.
+* [Embeddings for numerical features in tabular deep learning](https://research.yandex.com/blog/embeddings-for-numerical-features-in-tabular-deep-learning)
+	* Discussion of embeddings of tabular data for input to transformers and DL
+
+There are also a few interesting works on sequence recommendation using transformers
+* Alibabas [Behavior Sequence Transformer] (https://github.com/jiwidi/Behavior-Sequence-Transformer-Pytorch)
+* NVIDIAs [Transformers4Rec](https://developer.nvidia.com/blog/transformers4rec-building-session-based-recommendations-with-an-nvidia-merlin-library/)
+
+----------------------------
+### Other
+
+* [Speech And Language Processing](/Resources/pdfs/SpeechAndLanguageProcessing.pdf)
+
 
 
 ----------------------------
+
 
 
 ### Interesting case studies
