@@ -172,7 +172,8 @@ Some selected case studies from other companies about use of DS and ML in thier 
 
 | Company      | Industry | Short desc | Title | Tag | Year  | Link |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Uber      | Delivery and mobility       |   Optimsing push notification timings    |   How Uber optimizes push notification using ML    |   {+ Optimising marketing +}   |  2022      |   https://www.uber.com/en-GB/blog/how-uber-optimizes-push-notifications-using-ml/    |
+| Spotify      | Media       |   identify consequences of algorithms    |   Estimating long-term outcome of algorithms    |   {+ forecasting +}   |  2024      |   [https://www.uber.com/en-GB/blog/how-uber-optimizes-push-notifications-using-ml/](https://research.atspotify.com/2024/05/estimating-long-term-outcome-of-algorithms/)    |
+| Uber      | Delivery and mobility       |   Optimising push notification timings    |   How Uber optimizes push notification using ML    |   {+ Optimising marketing +}   |  2022      |   https://www.uber.com/en-GB/blog/how-uber-optimizes-push-notifications-using-ml/    |
 | Stripe      | Fintech and banking       |   Prevent fraudulent transactions    |   How we built it: Stripe Radar    |   {+ fraud detection +}   |  2023      |   https://stripe.com/blog/how-we-built-it-stripe-radar    |
 | Uber   | Delivery and mobility        |   forecast demand for airport rides   |  Demand and ETR forecasting for airports     |   {+ demand forecasting +}    |  2023     |   https://www.uber.com/en-GB/blog/demand-and-etr-forecasting-at-airports/    |
 | Pinterest   | Social media        |   Prevent advertiser churn   |  An ML based approach to proactive advertiser churn prevention     |   {+ churn prediction +}    |  2023     |  https://medium.com/pinterest-engineering/an-ml-based-approach-to-proactive-advertiser-churn-prevention-3a7c0c335016    |
