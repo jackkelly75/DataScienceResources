@@ -50,7 +50,7 @@ Currated external resources that are useful or interesting.
 * [Stitchfix](https://multithreaded.stitchfix.com/algorithms/blog/)
 * [Uber data science / ML](https://www.uber.com/en-GB/blog/engineering/data/)
 * [Zillow](https://www.zillow.com/tech/)
-
+* [ebay](https://innovation.ebayinc.com/tech/)
 
 ----------------------------
 
