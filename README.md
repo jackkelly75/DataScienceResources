@@ -20,7 +20,7 @@ https://github.com/khangich/machine-learning-interview
   * include more papers and sections
 
 
-  
+https://www.superdatascience.com/pages/deep-learning
 
 
 
