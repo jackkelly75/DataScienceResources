@@ -13,9 +13,22 @@ https://github.com/chiphuyen/machine-learning-systems-design
 https://github.com/khangich/machine-learning-interview
 
 
+* Add:
+  * good podacasts
+  * interesting courses
+  * newsletters
+  * include more papers and sections
+
+
+  
+
+
+
 ### Data science Resources
 
 Currated external resources that are useful or interesting.
+
+> This is for those already in data who are looking to develop/reinforce your skills, not start from scratch
 
 > Feel free to contribute! Add links through pull requests
 
