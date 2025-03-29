@@ -185,6 +185,7 @@ Some selected case studies from other companies about use of DS and ML in thier 
 
 | Company      | Industry | Short desc | Title | Tag | Year  | Link |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| Strava      | Sport       |   Identify cheaters on leaderboards    |   Using machine learning to remove Cars from Run and Ride leaderboards    |   {+ prediction +}   |  2025      |   [[https://www.uber.com/en-GB/blog/how-uber-optimizes-push-notifications-using-ml/](https://stories.strava.com/articles/removing-cars-from-leaderboards)    |
 | Spotify      | Media       |   identify consequences of algorithms    |   Estimating long-term outcome of algorithms    |   {+ forecasting +}   |  2024      |   [https://www.uber.com/en-GB/blog/how-uber-optimizes-push-notifications-using-ml/](https://research.atspotify.com/2024/05/estimating-long-term-outcome-of-algorithms/)    |
 | Uber      | Delivery and mobility       |   Optimising push notification timings    |   How Uber optimizes push notification using ML    |   {+ Optimising marketing +}   |  2022      |   https://www.uber.com/en-GB/blog/how-uber-optimizes-push-notifications-using-ml/    |
 | Stripe      | Fintech and banking       |   Prevent fraudulent transactions    |   How we built it: Stripe Radar    |   {+ fraud detection +}   |  2023      |   https://stripe.com/blog/how-we-built-it-stripe-radar    |
